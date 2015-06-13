@@ -16,7 +16,8 @@ background-attachment: fixed;
 
 .salat {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
     border: orange solid 5px;
     border-radius: 1em;
@@ -46,13 +47,14 @@ background-attachment: fixed;
 }
 .sun {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     border: brown solid 2px;
     border-radius: 1em;
     background-color: rgba(1,1,1,.5);
     color: white;
     margin: .5em;
+    text-align: center;
 }
 #dar {
     text-align: center;
