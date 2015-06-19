@@ -15,7 +15,7 @@ define("address",default="192.168.1.3")
 
 urls = [
     (r"/", handlers.IndexHandler),
-    (r"/(.*)", tornado.web.StaticFileHandler, {"path":r"{0}".format(os.path.dirname(__file__))}),
+    (r"/(.*)", tornado.web.StaticFileHandler, {"path":r"{0}".format(os.path.join(os.path.dirname(__file__),"static"))}),
 ]
 
 settings = dict({
