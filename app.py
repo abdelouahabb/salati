@@ -8,7 +8,7 @@ import handlers, os
 
 #ip   = os.environ['OPENSHIFT_PYTHON_IP']
 #port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
-define("port",default=8000,type=int)
+define("port",default=8080,type=int)
 define("address",default="192.168.1.3") 
 # if you want to test on your machine, avoid localhost, use your wifi address,
 # so you can test easily offline app, by stopping the server.
